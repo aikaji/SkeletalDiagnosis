@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE956CD22765C79C00238831 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE956CD12765C79C00238831 /* AppDelegate.swift */; };
+		CE956CD42765C79C00238831 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE956CD32765C79C00238831 /* SceneDelegate.swift */; };
+		CE956CD62765C79C00238831 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE956CD52765C79C00238831 /* ViewController.swift */; };
+		CE956CD92765C79C00238831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE956CD72765C79C00238831 /* Main.storyboard */; };
+		CE956CDB2765C79D00238831 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE956CDA2765C79D00238831 /* Assets.xcassets */; };
+		CE956CDE2765C79D00238831 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE956CDC2765C79D00238831 /* LaunchScreen.storyboard */; };
+		CE956CE92765C79D00238831 /* SkeletalDiagnosisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE956CE82765C79D00238831 /* SkeletalDiagnosisTests.swift */; };
+		CE956CF32765C79D00238831 /* SkeletalDiagnosisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE956CF22765C79D00238831 /* SkeletalDiagnosisUITests.swift */; };
+		CE956CF52765C79D00238831 /* SkeletalDiagnosisUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE956CF42765C79D00238831 /* SkeletalDiagnosisUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE956CE52765C79D00238831 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE956CC62765C79C00238831 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE956CCD2765C79C00238831;
+			remoteInfo = SkeletalDiagnosis;
+		};
+		CE956CEF2765C79D00238831 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE956CC62765C79C00238831 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE956CCD2765C79C00238831;
+			remoteInfo = SkeletalDiagnosis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE956CCE2765C79C00238831 /* SkeletalDiagnosis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkeletalDiagnosis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE956CD12765C79C00238831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE956CD32765C79C00238831 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE956CD52765C79C00238831 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE956CD82765C79C00238831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE956CDA2765C79D00238831 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE956CDD2765C79D00238831 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE956CDF2765C79D00238831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE956CE42765C79D00238831 /* SkeletalDiagnosisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkeletalDiagnosisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE956CE82765C79D00238831 /* SkeletalDiagnosisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletalDiagnosisTests.swift; sourceTree = "<group>"; };
+		CE956CEE2765C79D00238831 /* SkeletalDiagnosisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkeletalDiagnosisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE956CF22765C79D00238831 /* SkeletalDiagnosisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletalDiagnosisUITests.swift; sourceTree = "<group>"; };
+		CE956CF42765C79D00238831 /* SkeletalDiagnosisUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletalDiagnosisUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE956CCB2765C79C00238831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE956CE12765C79D00238831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE956CEB2765C79D00238831 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE956CC52765C79C00238831 = {
+			isa = PBXGroup;
+			children = (
+				CE956CD02765C79C00238831 /* SkeletalDiagnosis */,
+				CE956CE72765C79D00238831 /* SkeletalDiagnosisTests */,
+				CE956CF12765C79D00238831 /* SkeletalDiagnosisUITests */,
+				CE956CCF2765C79C00238831 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE956CCF2765C79C00238831 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE956CCE2765C79C00238831 /* SkeletalDiagnosis.app */,
+				CE956CE42765C79D00238831 /* SkeletalDiagnosisTests.xctest */,
+				CE956CEE2765C79D00238831 /* SkeletalDiagnosisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE956CD02765C79C00238831 /* SkeletalDiagnosis */ = {
+			isa = PBXGroup;
+			children = (
+				CE956CD12765C79C00238831 /* AppDelegate.swift */,
+				CE956CD32765C79C00238831 /* SceneDelegate.swift */,
+				CE956CD52765C79C00238831 /* ViewController.swift */,
+				CE956CD72765C79C00238831 /* Main.storyboard */,
+				CE956CDA2765C79D00238831 /* Assets.xcassets */,
+				CE956CDC2765C79D00238831 /* LaunchScreen.storyboard */,
+				CE956CDF2765C79D00238831 /* Info.plist */,
+			);
+			path = SkeletalDiagnosis;
+			sourceTree = "<group>";
+		};
+		CE956CE72765C79D00238831 /* SkeletalDiagnosisTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE956CE82765C79D00238831 /* SkeletalDiagnosisTests.swift */,
+			);
+			path = SkeletalDiagnosisTests;
+			sourceTree = "<group>";
+		};
+		CE956CF12765C79D00238831 /* SkeletalDiagnosisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE956CF22765C79D00238831 /* SkeletalDiagnosisUITests.swift */,
+				CE956CF42765C79D00238831 /* SkeletalDiagnosisUITestsLaunchTests.swift */,
+			);
+			path = SkeletalDiagnosisUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE956CCD2765C79C00238831 /* SkeletalDiagnosis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE956CF82765C79D00238831 /* Build configuration list for PBXNativeTarget "SkeletalDiagnosis" */;
+			buildPhases = (
+				CE956CCA2765C79C00238831 /* Sources */,
+				CE956CCB2765C79C00238831 /* Frameworks */,
+				CE956CCC2765C79C00238831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkeletalDiagnosis;
+			productName = SkeletalDiagnosis;
+			productReference = CE956CCE2765C79C00238831 /* SkeletalDiagnosis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE956CE32765C79D00238831 /* SkeletalDiagnosisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE956CFB2765C79D00238831 /* Build configuration list for PBXNativeTarget "SkeletalDiagnosisTests" */;
+			buildPhases = (
+				CE956CE02765C79D00238831 /* Sources */,
+				CE956CE12765C79D00238831 /* Frameworks */,
+				CE956CE22765C79D00238831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE956CE62765C79D00238831 /* PBXTargetDependency */,
+			);
+			name = SkeletalDiagnosisTests;
+			productName = SkeletalDiagnosisTests;
+			productReference = CE956CE42765C79D00238831 /* SkeletalDiagnosisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE956CED2765C79D00238831 /* SkeletalDiagnosisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE956CFE2765C79D00238831 /* Build configuration list for PBXNativeTarget "SkeletalDiagnosisUITests" */;
+			buildPhases = (
+				CE956CEA2765C79D00238831 /* Sources */,
+				CE956CEB2765C79D00238831 /* Frameworks */,
+				CE956CEC2765C79D00238831 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE956CF02765C79D00238831 /* PBXTargetDependency */,
+			);
+			name = SkeletalDiagnosisUITests;
+			productName = SkeletalDiagnosisUITests;
+			productReference = CE956CEE2765C79D00238831 /* SkeletalDiagnosisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE956CC62765C79C00238831 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					CE956CCD2765C79C00238831 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					CE956CE32765C79D00238831 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = CE956CCD2765C79C00238831;
+					};
+					CE956CED2765C79D00238831 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = CE956CCD2765C79C00238831;
+					};
+				};
+			};
+			buildConfigurationList = CE956CC92765C79C00238831 /* Build configuration list for PBXProject "SkeletalDiagnosis" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE956CC52765C79C00238831;
+			productRefGroup = CE956CCF2765C79C00238831 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE956CCD2765C79C00238831 /* SkeletalDiagnosis */,
+				CE956CE32765C79D00238831 /* SkeletalDiagnosisTests */,
+				CE956CED2765C79D00238831 /* SkeletalDiagnosisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE956CCC2765C79C00238831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE956CDE2765C79D00238831 /* LaunchScreen.storyboard in Resources */,
+				CE956CDB2765C79D00238831 /* Assets.xcassets in Resources */,
+				CE956CD92765C79C00238831 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE956CE22765C79D00238831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE956CEC2765C79D00238831 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE956CCA2765C79C00238831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE956CD62765C79C00238831 /* ViewController.swift in Sources */,
+				CE956CD22765C79C00238831 /* AppDelegate.swift in Sources */,
+				CE956CD42765C79C00238831 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE956CE02765C79D00238831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE956CE92765C79D00238831 /* SkeletalDiagnosisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE956CEA2765C79D00238831 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE956CF32765C79D00238831 /* SkeletalDiagnosisUITests.swift in Sources */,
+				CE956CF52765C79D00238831 /* SkeletalDiagnosisUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE956CE62765C79D00238831 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE956CCD2765C79C00238831 /* SkeletalDiagnosis */;
+			targetProxy = CE956CE52765C79D00238831 /* PBXContainerItemProxy */;
+		};
+		CE956CF02765C79D00238831 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE956CCD2765C79C00238831 /* SkeletalDiagnosis */;
+			targetProxy = CE956CEF2765C79D00238831 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE956CD72765C79C00238831 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE956CD82765C79C00238831 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE956CDC2765C79D00238831 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE956CDD2765C79D00238831 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE956CF62765C79D00238831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE956CF72765C79D00238831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE956CF92765C79D00238831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SkeletalDiagnosis/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.Kajiyama.Ai.SkeletalDiagnosis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE956CFA2765C79D00238831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SkeletalDiagnosis/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.Kajiyama.Ai.SkeletalDiagnosis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE956CFC2765C79D00238831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.Kajiyama.Ai.SkeletalDiagnosisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkeletalDiagnosis.app/SkeletalDiagnosis";
+			};
+			name = Debug;
+		};
+		CE956CFD2765C79D00238831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.Kajiyama.Ai.SkeletalDiagnosisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkeletalDiagnosis.app/SkeletalDiagnosis";
+			};
+			name = Release;
+		};
+		CE956CFF2765C79D00238831 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.Kajiyama.Ai.SkeletalDiagnosisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkeletalDiagnosis;
+			};
+			name = Debug;
+		};
+		CE956D002765C79D00238831 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.Kajiyama.Ai.SkeletalDiagnosisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkeletalDiagnosis;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE956CC92765C79C00238831 /* Build configuration list for PBXProject "SkeletalDiagnosis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE956CF62765C79D00238831 /* Debug */,
+				CE956CF72765C79D00238831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE956CF82765C79D00238831 /* Build configuration list for PBXNativeTarget "SkeletalDiagnosis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE956CF92765C79D00238831 /* Debug */,
+				CE956CFA2765C79D00238831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE956CFB2765C79D00238831 /* Build configuration list for PBXNativeTarget "SkeletalDiagnosisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE956CFC2765C79D00238831 /* Debug */,
+				CE956CFD2765C79D00238831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE956CFE2765C79D00238831 /* Build configuration list for PBXNativeTarget "SkeletalDiagnosisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE956CFF2765C79D00238831 /* Debug */,
+				CE956D002765C79D00238831 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE956CC62765C79C00238831 /* Project object */;
+}
